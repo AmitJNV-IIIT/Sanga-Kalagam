@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminActivity2">
+
+    <TextView
+        android:id="@+id/admintxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" ADMIN"
+        android:textColor="@color/black"
+        android:textSize="80px"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.067" />
+
+    <RadioGroup
+        android:id="@+id/radiogroup"
+        android:layout_width="328dp"
+        android:layout_height="179dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.638"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.201">
+
+        <RadioButton
+            android:id="@+id/yearadmin"
+            android:layout_width="232dp"
+            android:layout_height="92dp"
+            android:layout_marginLeft="150px"
+            android:text="Yearly sets membership fee "
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/submit_2" />
+
+
+        <RadioButton
+            android:id="@+id/monthadmin"
+            android:layout_width="234dp"
+            android:layout_height="92dp"
+            android:layout_marginLeft="150px"
+            android:text="Monthly sets membership fee "
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/fee"
+        android:layout_width="300px"
+        android:layout_height="130px"
+        android:layout_marginTop="400px"
+        android:text="Set fee"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.582"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.284" />
+
+    <TextView
+        android:id="@+id/textView3"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="28dp"
+        android:text="Enter manager username to Restrict"
+        android:textColor="@color/black"
+        android:textSize="50px"
+        app:layout_constraintBottom_toTopOf="@+id/admininput"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.714"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/admininput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="212dp"
+        android:gravity="center"
+        android:hint="Enter manager username"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.683"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/adminbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Restrict Manager"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.647"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/admininput"
+        app:layout_constraintVertical_bias="0.372" />
+</androidx.constraintlayout.widget.ConstraintLayout>

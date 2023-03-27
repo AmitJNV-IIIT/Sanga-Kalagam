@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Sanga</string>
+    <string name="device_registration_token">Device registration token</string>
+</resources>

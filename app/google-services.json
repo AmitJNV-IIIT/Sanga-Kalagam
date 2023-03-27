@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "269228724104",
+    "project_id": "sanga-eff59",
+    "storage_bucket": "sanga-eff59.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:269228724104:android:ec1cb593781aa9b205743d",
+        "android_client_info": {
+          "package_name": "com.visanka.sangam"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "269228724104-k9uco8lrlbp38f9as6earp897kdl6d07.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA0xp9N_xhh1TQJfjq9sl5uxjStDJMMuqE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "269228724104-k9uco8lrlbp38f9as6earp897kdl6d07.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

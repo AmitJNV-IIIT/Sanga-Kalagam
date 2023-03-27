@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".dashboard"
+    >
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DASHBOARD"
+        android:textColor="@color/black"
+       android:layout_marginTop="100px"
+        android:textSize="80px"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.036" />
+
+    <TableLayout
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="200px"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2">
+
+        <TableRow android:background="@color/purple_200"
+            android:padding="10px"
+            android:layout_width="wrap_content"
+
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:textSize="30px"
+                android:textAlignment="center"
+                android:text="Name"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:textSize="30px"
+                android:text="Email"
+                android:layout_width="wrap_content"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+
+                />
+
+            <TextView
+                android:textSize="30px"
+                android:textAlignment="center"
+                android:layout_width="wrap_content"
+                android:text="Phone no."
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:textSize="30px"
+                android:layout_width="wrap_content"
+                android:textAlignment="center"
+                android:text="Address"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                />
+
+
+        </TableRow>
+        <TableRow android:background="@color/purple_200"
+            android:layout_width="wrap_content">
+
+            <TextView
+
+                android:textAlignment="center"
+                android:text="Amit"
+                android:textColor="@color/black"
+
+                />
+            <TextView
+
+                android:textAlignment="center"
+                android:text="a@gmail.com"
+                android:textColor="@color/black"
+
+                />
+
+
+                />
+            <TextView
+
+                android:textAlignment="center"
+                android:text="8669040717"
+                android:textColor="@color/black"
+
+                />
+            <TextView
+
+                android:textAlignment="center"
+                android:text="banda"
+                android:textColor="@color/black"
+
+                />
+
+
+        </TableRow>
+        <TableRow android:gravity="center"
+            android:layout_width="100px"
+            android:padding="10px">
+
+            <com.google.android.material.button.MaterialButton
+                android:textSize="20px"
+                android:background="@color/purple_200"
+                android:id="@+id/button_1"
+                android:layout_height="80px"
+                android:layout_width="wrap_content"
+                android:text="select"/>
+        </TableRow>
+
+        <TableRow android:background="@color/purple_200"
+            android:padding="10px"
+            android:layout_width="wrap_content"
+            >
+
+            <TextView
+
+                android:textAlignment="center"
+                android:text="Name"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:text="Email"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:textAlignment="center"
+                android:text="Phone no."
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:textAlignment="center"
+                android:text="Address"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                />
+
+
+        </TableRow>
+        <TableRow android:background="@color/purple_200">
+            <TextView
+                android:textAlignment="center"
+                android:text="Amit"
+                android:textColor="@color/black"
+
+                />
+            <TextView
+                android:textAlignment="center"
+                android:text="a@gmail.com"
+                android:textColor="@color/black"
+
+                />
+
+
+                />
+            <TextView
+                android:textAlignment="center"
+                android:text="8669040717"
+                android:textColor="@color/black"
+
+                />
+            <TextView
+                android:textAlignment="center"
+                android:text="Banda"
+                android:textColor="@color/black"
+
+                />
+
+
+        </TableRow>
+        <TableRow android:gravity="center"
+            android:padding="10px">
+            <com.google.android.material.button.MaterialButton
+                android:textSize="20px"
+                android:background="@color/purple_200"
+                android:id="@+id/button_2"
+                android:layout_height="80px"
+                android:layout_width="wrap_content"
+                android:text="select"/>
+        </TableRow>
+        <TableRow android:background="@color/purple_200"
+            android:padding="10px"
+            >
+
+            <TextView
+                android:textAlignment="center"
+                android:text="Name"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:text="Email"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:textAlignment="center"
+                android:text="Phone no."
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:textAlignment="center"
+                android:text="Address"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                />
+
+
+        </TableRow>
+        <TableRow android:background="@color/purple_200">
+            <TextView
+                android:textAlignment="center"
+                android:text="Akash"
+                android:textColor="@color/black"
+
+                />
+            <TextView
+                android:textAlignment="center"
+                android:text="ak@gmail.com"
+                android:textColor="@color/black"
+
+                />
+
+
+                />
+            <TextView
+                android:textAlignment="center"
+                android:text="8669040717"
+                android:textColor="@color/black"
+
+                />
+            <TextView
+                android:textAlignment="center"
+                android:text="Nashik"
+                android:textColor="@color/black"
+
+                />
+
+
+        </TableRow>
+        <TableRow android:gravity="center"
+            android:padding="10px">
+            <com.google.android.material.button.MaterialButton
+
+                android:textSize="20px"
+                android:background="@color/purple_200"
+                android:id="@+id/button_3"
+                android:layout_height="80px"
+                android:layout_width="wrap_content"
+                android:text="select"/>
+        </TableRow>
+
+
+    </TableLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
